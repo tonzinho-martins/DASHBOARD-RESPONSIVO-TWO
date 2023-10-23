@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">    
+    <title>Dashboard Responsivo - Layout Two</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="img/icon_logo_martins.png" alt="Logo">
+                    <h2>Martins<span class="danger">Dev</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-outlined">
+                        person
+                    </span>
+                    <h3>Usuários</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        receipt_long
+                    </span>
+                    <h3>História</h3>
+                </a>
+                <a href="#" >
+                    <span class="material-symbols-outlined">
+                        insights
+                    </span>
+                    <h3>Análises</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        mail_outline
+                    </span>
+                    <h3>Tickets</h3>
+                    <span class="message-count">27</span>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        inventory
+                    </span>
+                    <h3>Descontos</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Alertas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        settings
+                    </span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        add
+                    </span>
+                    <h3>Novo Login</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-outlined">
+                        logout
+                    </span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+
+
+        <main>
+            <h1>Análises</h1>
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total de Vendas</h3>
+                            <h1>R$65.980</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+80%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Visitas no Site</h3>
+                            <h1>25.980</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-40%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Pesquisas</h3>
+                            <h1>15.980</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+20%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="new-users">
+                <h2>Novo Usuário</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="img/profile-2.jpg">
+                        <h2>Jonh</h2>
+                        <p>54 minutos atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/profile-3.jpg">
+                        <h2>Marley</h2>
+                        <p>5 horas atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/profile-4.jpg">
+                        <h2>Ana</h2>
+                        <p>6 horas atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/plus.png">
+                        <h2>Adicionar</h2>
+                        <p>Novo Usuário</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-orders">
+                <h2>Pedidos Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome do Curso</th>
+                            <th>Número do Curso</th>
+                            <th>Pagamento</th>
+                            <th>Status</th>
+                            <tr></tr>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Mostrar Todos</a>
+            </div>
+        </main>
+        
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-symbols-outlined">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-symbols-outlined ">
+                        light_mode
+                    </span>
+                    <span class="material-symbols-outlined active">
+                        dark_mode
+                    </span>
+                </div>
+
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Junior</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/profile-1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="img/icon_logo_martins.png">
+                    <h2>MartinsDev</h2>
+                    <p>Desenvolvedor Fullstack</p>
+                </div>
+            </div>
+            <div class="reminders">
+                <div class="header">
+                    <h2>Lembretes</h2>
+                    <span class="material-symbols-outlined">
+                        notifications_none
+                    </span>
+                </div>
+
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 - 12:00 hrs
+                            </small>
+                        </div>
+                        <span class="material-symbols-outlined">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Workshop</h3>
+                            <small class="text_muted">
+                                08:00 - 12:00 hrs
+                            </small>
+                        </div>
+                        <span class="material-symbols-outlined">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-symbols-outlined">
+                            add
+                        </span>
+                        <h3>Adicionar Lembrete</h3>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
